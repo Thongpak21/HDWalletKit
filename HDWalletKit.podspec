@@ -17,6 +17,8 @@ Pod::Spec.new do |s|
   s.default_subspec = 'All'
   s.subspec 'All' do |ss|
     ss.ios.dependency 'HDWalletKit/HDWalletKit'
+
+    ss.dependency 'CryptoSwift'
   end
 
   s.subspec 'HDWalletKit' do |ss|
